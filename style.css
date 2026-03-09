@@ -31,12 +31,16 @@ main{
 
 #screen{
     position: absolute;
-    width: 270px;
-    height: 467px;
+    width: 269px;
+    height: 471.5px;
 
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -49.7%);
+    transform: translate(-50%, -49.68%);
+}
+
+iframe{
+    border: 0px;
 }
 
 .logo{
