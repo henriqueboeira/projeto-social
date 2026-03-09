@@ -34,9 +34,8 @@ main{
     width: 269px;
     height: 471.5px;
 
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -49.68%);
+    left: 7%;
+    top: 12.83%;
 }
 
 iframe{
@@ -45,5 +44,21 @@ iframe{
 
 .logo{
     width: 50px;
-    border-radius: 100%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.404);
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.logo:hover{
+    border: 2px solid rgba(255, 255, 255, 0.356);
+    transform: translate(-3px, -3px);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.555);
+    transition: transform .2s, border .2s, box-shadow .2s;
+}
+
+#social{
+    white-space: pre-line;
+    text-align: right;
+    margin-right: 0px;
 }
