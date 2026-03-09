@@ -15,12 +15,12 @@ html, body{
 main{
     position: relative;
     height: 100vh;
-    background: url(imagens/fundo-madeira.jpg)  center center no-repeat fixed;
+    background: url(../imagens/fundo-madeira.jpg)  center center no-repeat fixed;
 }
 
 #phone{
     position: absolute;
-    background: url(imagens/frame-iphone.png) center center no-repeat;
+    background: url(../imagens/frame-iphone.png) center center no-repeat;
     width: 311px;
     height: 627px;
 
