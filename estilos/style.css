@@ -31,7 +31,7 @@ main{
 
 #screen{
     position: absolute;
-    width: 269px;
+    width: 268px;
     height: 471.5px;
 
     left: 7%;
@@ -43,11 +43,13 @@ iframe{
 }
 
 .logo{
-    width: 50px;
+    width: 5%;
     border-radius: 50%;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.404);
     margin-right: 10px;
     box-sizing: border-box;
+    min-width: 40px;
+    max-width: 50px;
 }
 
 .logo:hover{
